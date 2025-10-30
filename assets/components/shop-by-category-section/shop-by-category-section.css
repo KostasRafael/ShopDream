@@ -1,0 +1,74 @@
+#shop-by-category-section {
+  background-color: rgb(249, 250, 251);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shop-by-category-heading {
+  color: rgb(2, 8, 23);
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.categories {
+  display: flex;
+  gap: 15px;
+}
+
+.two-categories {
+  display: flex;
+  gap: 15px;
+  width: 50%;
+}
+
+.single-category {
+  all: unset;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  width: 50%;
+  aspect-ratio: 1/1;
+  background: var(--custom-grey);
+  border-radius: 15px;
+}
+
+.category-heading {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.single-category:hover {
+  background-color: rgb(177, 175, 175);
+}
+
+.view-categories-button {
+  all: unset;
+  cursor: pointer;
+  color: black;
+  border: 0.8px solid rgb(226, 232, 240);
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+  }
+
+  .two-categories {
+    width: 100%;
+  }
+}

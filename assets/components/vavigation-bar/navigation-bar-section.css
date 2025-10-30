@@ -1,0 +1,66 @@
+.navbar-section {
+  background-color: rgba(255, 255, 255, 0.9);
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Noto Color Emoji", "Segoe UI Symbol";
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px;
+  border-top: 0.8px solid rgb(226, 232, 240);
+  border-bottom: 0.8px solid rgb(226, 232, 240);
+  height: 64px;
+  position: sticky;
+  top: 0;
+}
+
+.left-navbar,
+.right-navbar {
+  list-style-type: none;
+  color: rgb(2, 8, 23);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+
+.logo-container {
+  align-self: center;
+}
+
+.logo {
+  color: rgb(139, 92, 246);
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.list-item {
+  align-self: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(2, 8, 23);
+}
+
+.nav-link:hover {
+  color: rgb(124, 59, 237);
+}
+
+.button-like {
+  padding: 8px 16px;
+  background-color: rgb(124, 59, 237);
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(248, 250, 252);
+  text-decoration: none;
+}
+
+.button-like:hover {
+  background-color: rgb(124, 59, 237, 0.9);
+}

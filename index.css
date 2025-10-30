@@ -1,0 +1,128 @@
+:root {
+  /* Bachground Colors */
+  --custom-purple: linear-gradient(
+    to right,
+    rgb(135, 25, 238),
+    rgba(159, 86, 228, 0.5)
+  );
+
+  --custom-grey: linear-gradient(
+    to top,
+    rgb(58, 57, 57),
+    rgb(143, 138, 138, 0.5)
+  );
+
+  /* Font Sizes */
+  --large-font-headings: 60px;
+  --Medium-font-subheadings: 30px;
+  --medium-font: 20px;
+  --small-font: 14px;
+
+  /* categories */
+  --custom-grey: linear-gradient(
+    to top,
+    rgb(58, 57, 57),
+    rgb(143, 138, 138, 0.5)
+  );
+
+  --category-on-hover: rgb(177, 175, 175);
+
+  --category-font-family: ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+
+.ht {
+  height: 200px;
+  background: linear-gradient(to top, rgb(58, 57, 57), rgb(143, 138, 138, 0.5));
+}
+
+h1 {
+  font-size: var(--large-bold-font);
+}
+
+/* Products Page */
+
+.products-filter-menu-categories {
+  display: flex;
+  gap: 20px;
+}
+
+.filter-category {
+  flex: 1;
+}
+
+.menu-products {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Categories Page */
+
+#categories-section {
+  padding: 0 32px;
+}
+
+.categories-heading {
+  font-family: var(--category-font-family);
+  color: rgb(2, 8, 23);
+  font-size: 30px;
+}
+
+.all-categories {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.category-button {
+  all: unset;
+  background: var(--custom-grey);
+  aspect-ratio: 1.5/1;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.category-button:hover {
+  background-color: var(--category-on-hover);
+}
+
+.heading-price {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-heading {
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--category-font-family);
+  margin: 0;
+  padding: 0;
+}
+
+.category-paragraph {
+  color: white;
+  font-size: 14px;
+  font-family: var(--category-font-family);
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .all-categories {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .all-categories {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,78 @@
+:root {
+  /* Bachground Colors */
+  --custom-purple: linear-gradient(
+    to right,
+    rgb(135, 25, 238),
+    rgba(159, 86, 228, 0.5)
+  );
+
+  --custom-grey: linear-gradient(
+    to top,
+    rgb(58, 57, 57),
+    rgb(143, 138, 138, 0.5)
+  );
+
+  /* Font Families*/
+
+  /* Font Sizes */
+  --large-font-headings: 60px;
+  --Medium-font-subheadings: 30px;
+  --medium-font: 20px;
+  --small-font: 14px;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Noto Color Emoji", "Segoe UI Symbol";
+}
+.hero-section {
+  height: 100vh;
+  background: var(--custom-purple);
+  display: flex;
+  align-items: center;
+  padding: 0px 40px;
+}
+
+.center-heading-description {
+  display: flex;
+  gap: 60px;
+}
+
+.heading-description-buttons {
+  align-self: center;
+}
+
+.heading-description-buttons h1 {
+  color: white;
+  font-size: var(--large-font-headings);
+  font-weight: 700;
+}
+
+.heading-description-buttons p {
+  color: white;
+  font-size: var(--medium-font);
+}
+
+.hero-buttons {
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(135, 25, 238);
+  font-size: var(--small-font);
+  cursor: pointer;
+  border: none;
+}
+
+.hero-buttons:hover {
+  background-color: rgb(135, 25, 238);
+  color: black;
+}
+
+.laptop-image-container {
+  border: 15px solid white;
+  border-radius: 15px;
+}
+
+.laptop-image {
+  width: 550px;
+}

@@ -1,0 +1,67 @@
+.join-our-community-section {
+  background-color: white;
+  padding: 48px;
+}
+
+.description-promotion {
+  background-color: rgb(167, 139, 250);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 32px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1.5;
+}
+
+.description-heading {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  color: white;
+}
+
+.description-paragraph {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  color: white;
+}
+
+.signup-button {
+  display: inline;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: white;
+  align-self: flex-start;
+  text-align: center;
+  color: rgb(139, 92, 246);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+
+.promotion {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promotion-image-container {
+  width: 240px;
+  height: 100px;
+  background: url("../join-our-comunity-section/images/promotion.webp");
+  background-repeat: no-repeat;
+  background-size: 240px;
+  background-position: 0;
+  border-radius: 6px;
+}

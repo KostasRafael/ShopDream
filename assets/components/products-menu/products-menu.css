@@ -1,0 +1,56 @@
+:root {
+  /* Bachground Colors */
+  --custom-purple: linear-gradient(
+    to right,
+    rgb(135, 25, 238),
+    rgba(159, 86, 228, 0.5)
+  );
+
+  --custom-grey: linear-gradient(
+    to top,
+    rgb(58, 57, 57),
+    rgb(143, 138, 138, 0.5)
+  );
+
+  /* Font Sizes */
+  --large-font-headings: 60px;
+  --Medium-font-subheadings: 30px;
+  --medium-font: 20px;
+  --small-font: 14px;
+}
+
+.ht {
+  height: 200px;
+  background: linear-gradient(to top, rgb(58, 57, 57), rgb(143, 138, 138, 0.5));
+}
+
+h1 {
+  font-size: var(--large-bold-font);
+}
+
+/* Products Menu */
+
+.products-menu {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.products-button {
+  all: unset;
+  background-color: rgb(255, 255, 255);
+  border: 0.8px solid rgb(226, 232, 240);
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  border-radius: 6px;
+  cursor: pointer;
+  color: rgb(2, 8, 23);
+  flex-shrink: 0;
+}
+
+.products-button:hover {
+  background-color: rgb(211, 206, 206);
+}

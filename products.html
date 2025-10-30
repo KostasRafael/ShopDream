@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./assets/components/vavigation-bar/navigation-bar-section.css">
+    <link rel="stylesheet" href="./assets/components/filter-products/filter-products.css" type="text/css">
+    <link rel="stylesheet" href="./assets/components/products-menu/products-menu.css" type="text/css">
+    <link rel="stylesheet" href="./assets/components/products-list/products-list.css">
+    <link rel="stylesheet" href="./assets/components/product-card/product-card.css">
+    <link rel="stylesheet" href="./assets/components/footer-section/footer-section.css" type="text/css">
+</head>
+
+<body>
+    <navigation-bar-section></navigation-bar-section>
+    <section class="products-filter-menu-categories">
+        <div class="filter-category">
+            <filter-products class="some"></filter-products>
+        </div>
+        <div class="menu-products">
+            <products-menu></products-menu>
+            <products-list></products-list>
+        </div>
+    </section>
+    <footer-section></footer-section>
+</body>
+
+<script src="https://kit.fontawesome.com/50ab0d686f.js" crossorigin="anonymous"></script>
+<script src="./assets/components/vavigation-bar/navigation-bar-section.js"></script>
+<script src="./assets/components/products-list/products-list.js"></script>
+<script src="./assets/components/filter-products/filter-products.js"></script>
+<script src="./assets/components/products-menu/products-menu.js"></script>
+<script src="./assets/components/product-card/product-card.js"></script>
+<script src="./assets/components/footer-section/footer-section.js"></script>
+
+<script>
+    const filter = document.querySelector(".some");
+    filter.searchProducts();
+
+</script>
+
+
+
+</html>
