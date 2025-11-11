@@ -57,8 +57,6 @@ class filterProducts extends HTMLElement {
       setButtonText(topRatedDropdown)
     );
 
-    console.log(productsList.innerHTML);
-
     function setButtonText(dropdownElement) {
       sortButton.textContent = dropdownElement.textContent;
     }

@@ -1,5 +1,3 @@
-const anotherTest = 1;
-
 class ProductsList extends HTMLElement {
   constructor() {
     super();
@@ -18,7 +16,7 @@ class ProductsList extends HTMLElement {
 
     const url = "http://localhost:8080/products";
 
-    const productsContainer = this.getElementById("products-list");
+    const productsContainer = this.querySelector("#products-list");
 
     fetch(url)
       .then((response) => response.json())

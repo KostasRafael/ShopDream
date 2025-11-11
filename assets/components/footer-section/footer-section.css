@@ -6,6 +6,7 @@
   display: flex;
   gap: 40px;
   padding: 48px 16px;
+  margin-top: 40px;
 }
 
 .invitation-shop {
