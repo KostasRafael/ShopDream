@@ -120,12 +120,15 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  .all-categories {
-    grid-template-columns: 1fr 1fr;
+  .products-filter-menu-categories {
+    flex-direction: column;
   }
 }
 
 @media (max-width: 640px) {
+  #products-list {
+    grid-template-columns: 1fr 1fr;
+  }
   .all-categories {
     grid-template-columns: 1fr;
   }
