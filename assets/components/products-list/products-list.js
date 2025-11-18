@@ -14,7 +14,7 @@ class ProductsList extends HTMLElement {
 
     const test = 9;
 
-    const url = "http://localhost:8080/products";
+    const url = "https://shopdream-api.onrender.com/products";
 
     const productsContainer = this.querySelector("#products-list");
 

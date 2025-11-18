@@ -6,7 +6,7 @@ class loginSection extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <section id="login-section">
-        <div class="login-form">
+        <form class="login-form" action="http://localhost:8080/login" method="POST">
             <div class="instructions-container">
                 <h3 class="instructions-heading">Login</h3>
                 <p class="instructions-paragraph">Enter your email bellow to login to your account</p>
@@ -14,17 +14,17 @@ class loginSection extends HTMLElement {
             <div class="labels-inputs-container">
                 <div class="email-container">
                     <label for="email" class="email-label form-label">Email</label>
-                    <input class="form-input" type="text" id="email">
+                    <input name="email" class="form-input" type="email" id="email" autocomplete="email" required>
                 </div>
                 <div class="password-container">
                     <label for="password" class="email-label form-label">Password</label>
-                    <input class="form-input" type="text" id="password">
+                    <input name="password" class="form-input" type="password" id="password" autocomplete="password" required>
                 </div>
                 <div class="button-container">
-                    <button class="login-button">Login</button>
+                    <button type="submit" class="login-button">Login</button>
                 </div>
             </div>
-        </div>
+        </form>
     </section>
     `;
   }

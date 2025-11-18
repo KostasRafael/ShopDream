@@ -64,3 +64,15 @@
 .button-like:hover {
   background-color: rgb(124, 59, 237, 0.9);
 }
+
+/* Hamburger Menu */
+
+@media (max-width: 800px) {
+  .nav-link {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    flex-direction: column;
+    padding: 10px;
+  }
+}
