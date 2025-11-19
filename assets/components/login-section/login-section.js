@@ -6,7 +6,7 @@ class loginSection extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <section id="login-section">
-        <form class="login-form" action="http://localhost:8080/login" method="POST">
+        <form class="login-form" action="https://shopdream-api.onrender.com/login" method="POST">
             <div class="instructions-container">
                 <h3 class="instructions-heading">Login</h3>
                 <p class="instructions-paragraph">Enter your email bellow to login to your account</p>

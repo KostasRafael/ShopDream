@@ -6,7 +6,7 @@ class signupSection extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <section id="signup-section">
-        <form class="signup-form" action="http://localhost:8080/signup" method="POST">
+        <form class="signup-form" action="https://shopdream-api.onrender.com/signup" method="POST">
             <div class="instructions-container">
                 <h3 class="instructions-heading">Create an account</h3>
                 <p class="instructions-paragraph">Enter your details below to create your account</p>
